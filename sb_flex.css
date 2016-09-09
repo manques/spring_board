@@ -1,0 +1,231 @@
+body{
+	background-color:white;
+}
+.nav_out{
+	padding: 0% 5%;
+	margin: 0px;
+	width:100%;
+	height: auto;
+	background-color: #48485e;
+    color:white;
+}
+
+.nav_main{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	align-content: space-around;
+	width:100%;
+	height: 100%;
+}
+.nav_header{
+	width:50%;
+	height: 30%;
+	padding: 0% 0%;
+}
+.nav_list_out{
+	width:50%;
+	height: 30%;
+	padding: 1% 0%;
+}
+.nav_list{
+	display: flex;
+	justify-content: space-around;
+
+}
+
+
+	div#clear{
+		clear: both !important;
+	}
+.main_section_out{
+	width: 100%;
+	height:565px;
+	background-image: url('https://d1v7bd3b0sjvlo.cloudfront.net/uploads/alumni/1450861461_sara_hero_p.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	display: flex;
+	flex-wrap:wrap;
+	margin-top:0px;
+	justify-content: flex-start;
+	align-items: baseline;
+	border:1px solid black;
+	flex-direction: column;
+}
+.main_section{
+	width:50%;
+	height:50%;
+	margin:5% 5% 12% 5%;
+	color:white;
+}
+.self_link{
+	display: flex;
+	justify-content: center;
+	width: 100%
+}
+ 
+ /*page footer*/
+.page-footer{
+	background-color: black;
+	color:white;
+	margin:0px;
+	padding: 20px 10px 10px 50px;
+}
+a:link{
+    color: white !important;
+    text-decoration: none !important;
+}
+a:visited{
+    color: white !important;
+    text-decoration: none !important;
+}
+a:active  {
+    color: white !important;
+    text-decoration: none !important;
+}
+a:hover{
+    color: yellow !important;
+}
+
+/*jumbotron*/
+.jumbotron_in{
+	padding:0px 10%;
+}
+
+
+/*article*/
+.article1{
+ background-color: white;
+ padding: 0%;
+ display:flex !important;
+ justify-content: center;
+ align-items: flex-start;
+
+}
+.article1_header1{
+	/*display:flex !important;*/
+	width:60% !important;
+	font-size: 16px;
+    line-height: 1.5625;
+    margin: 0%;
+    padding: 0px 5% 0px 0px;
+
+}
+.article1_caption1{
+	/*display:flex !important;*/
+	width:30% !important;
+	margin: 0%;
+	padding: 0px;
+}
+.article1_image{
+	/*display:flex !important;
+	width:50% !important;*/
+	margin:0px 0px 5% 0px;
+}
+.article1_article1{
+	/*display:flex !important;
+	width:100% !important;*/
+	margin:0px 0px 5% 0px;
+	color:red;
+}
+
+/*green field*/
+
+.green_field{
+ background-color: #00c09d;
+ padding: 0px;
+ display:flex !important;
+ justify-content: space-around;
+ align-items: center;
+ color: white;
+}
+.gf_article{
+	
+	width:60% !important;
+	font-size: 16px;
+    line-height: 1.5625;
+    margin: 0%;
+    padding: 0px;
+    color:white;
+
+}
+.gf_button{
+	width:30% !important;
+	height:20%;
+	margin: 0%;
+	padding: 0px;
+}
+.gf_button_in{
+   background-color: yellow;
+   color: black;
+}
+
+
+/*pre-footer*/
+
+.prefooter{
+   background-color:rgb(50, 50, 50);
+   display: flex;
+   justify-content: center;
+}
+.pf1{
+    /*display:flex !important;*/
+	width:30% !important;
+    margin: 0px 5%;
+    padding: 0px;
+    color:white;
+    display: flex;
+    flex-wrap: wrap;
+}
+.pf2{
+    /*display:flex !important;*/
+	width:20% !important;
+    margin: 0%;
+    padding: 0px;
+    color:white;
+}
+
+.pfg{
+	color: green;
+}
+.pfsize{
+	font-size: 14px;
+}
+ul{
+	list-style-type: none;
+}
+  .pfselect_h{
+  	display:flex;
+  	justify-content: space-between;
+  }
+.pfselect,.pfselect_h{
+	background-color:grey;
+	box-sizing: border-box;
+	padding: 3%;
+	border-radius: 1%;
+}
+.pfcircle{
+	width:30px;
+	height:30px;
+	border-radius: 15px;
+	background-color:grey;
+	text-align:center !important;
+	vertical-align: middle;
+	font-size:25px;
+	}
+
+.pf_form_in{
+	    display: flex;
+}
+.pf_form_in_in{
+	border-style: none;
+	border-radius: 2%;
+}
+	
+	.pf_header,.pf_social,.pf_form,.pf_hide{
+		width:100%;
+	}
+	.pf_hide{
+
+
+	}
